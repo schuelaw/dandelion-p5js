@@ -1,5 +1,6 @@
 // by Albert Schueller, math prof at Whitman College
 // license: creative commons, BY-SA
+//
 
 var canvas;
 var balls;
