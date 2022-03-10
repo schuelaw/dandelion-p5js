@@ -66,6 +66,11 @@ function keyTyped() {
   if (l) { loop(); }
   else {noLoop(); }
  }
+
+ // Save a copy of the current canvas as "dandelion.png"
+ if (key=='s') {
+  saveCanvas(canvas,"dandelion","png");
+ }
 }
 
 // A class that represents a ball on a circle of radius _R, at angle, _a,
